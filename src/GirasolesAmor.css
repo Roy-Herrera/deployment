@@ -1,0 +1,47 @@
+.terminal {
+  background-color: #111;
+  color: #0f0;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px;
+  border-radius: 12px;
+  width: 80%;
+  max-width: 600px;
+  margin: 50px auto;
+  box-shadow: 0 0 20px #0f04;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pantalla {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding-right: 5px;
+  margin-bottom: 10px;
+}
+
+.entrada {
+  color: #0f0;
+  font-weight: bold;
+}
+
+.salida {
+  color: #fff;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.input-terminal {
+  background: transparent;
+  border: none;
+  color: #0f0;
+  font-size: 16px;
+  outline: none;
+  width: 90%;
+}
+
+.prompt {
+  margin-right: 5px;
+  color: #0f0;
+  font-weight: bold;
+}
